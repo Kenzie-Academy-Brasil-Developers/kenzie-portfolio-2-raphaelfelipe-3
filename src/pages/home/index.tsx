@@ -29,7 +29,8 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/Kenzie-Academy-Brasil-Developers
+/kenzie-portfolio-2-raphaelfelipe-3`;
 
   return (
     <main id="home">
@@ -47,7 +48,7 @@ export const Home = (): JSX.Element => {
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
